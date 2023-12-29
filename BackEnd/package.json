@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.2.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "dev": "nodemon src/Server.js",
+    "start": "node src/Server.js"
+  },
+  "author": "Goutam Marko",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "mongodb": "^6.3.0",
+    "mongoose": "^5.5.3",
+    "node-cron": "^3.0.2",
+    "socket.io": "^4.7.2"
+  }
+}
